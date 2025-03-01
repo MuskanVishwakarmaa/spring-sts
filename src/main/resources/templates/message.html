@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            background: linear-gradient(45deg, #ff6a00, #ee0979);
             height: 100vh;
             margin: 0;
             display: flex;
@@ -40,8 +40,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hello World</h1>
-        <p>Welcome to the BridgeLabz MVC Demo Application!</p>
+        <h1 th:text="${message}"></h1>
+        <p>Hope you enjoy the demo!</p>
     </div>
 </body>
 </html>
